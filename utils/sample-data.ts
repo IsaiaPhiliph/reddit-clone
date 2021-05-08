@@ -14,7 +14,7 @@ export const samplePostData: PostType[] = [
     content:
       "Pues soy el mejor y he hecho este programita en reactjs que lo vais a flipar nene",
     author: "IsaiaPhiliph",
-    karma: 1789,
+    karma: 9846,
     tags: [
       {
         name: "OC",

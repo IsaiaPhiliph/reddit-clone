@@ -11,7 +11,7 @@ function PostsFeed() {
   });
 
   return (
-    <div className="flex flex-col gap-y-2 items-start justify-start mx-2 sm:mx-0">
+    <div className="flex flex-col gap-y-2 items-start justify-start p-2 sm:mx-0 bg-gray-200">
       {posts &&
         posts.map((post) => {
           return <Post post={post} />;
