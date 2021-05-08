@@ -5,6 +5,16 @@
 // import { User } from 'path/to/interfaces';
 
 export type User = {
-  id: number
-  name: string
-}
+  id: number;
+  name: string;
+};
+export type Tag = {
+  name: string;
+};
+export type PostType = {
+  title: string;
+  content: string;
+  author: string;
+  karma: number;
+  tags: Tag[];
+};
